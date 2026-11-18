@@ -1,1 +1,8 @@
-*{box-sizing:border-box; border: red 2px solid;}
+*{box-sizing:border-box;}
+*html{
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size:16px;
+    line-height:1.5;
+    color:#333;
+    background-color:#fff;
+}
