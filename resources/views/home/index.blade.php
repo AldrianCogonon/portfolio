@@ -8,11 +8,13 @@
     @vite(['resources/css/home/index.css', 'resources/js/home/index.js'])
 </head>
 <body>
-    <h1>Welcome to my portfolio</h1>
-    @include('layouts.navigation')
-
-    @yield('content')
-
-    @vite('resources/js/app.js')
+    @include('partials.navbar')
+    @extends('layouts.app')
+    @section('content')
+    <main>
+        <h1>Welcome to my portfolio</h1>
+        <p>This is the home page of my portfolio website.</p>
+    </main>
+    @endsection
 </body>
 </html>
